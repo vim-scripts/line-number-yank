@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2963
+
+The script is used for yank lines with their line number.
+You can yank lines for specific range with their line number by key map \ny
+For example, the text from line 9 to 12 is like the follow:
+
+line9
+line10
+line11
+line12
+
+if you specified text from line 9 to line 12 under visual mode, press `\ny'. Then if you press `p', it would paste:
+
+  9  line9
+ 10  line10
+ 11  line11
+ 12  line12
+
+If the line number is larger than 999, the format would not that tidy.
